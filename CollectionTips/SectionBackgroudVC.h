@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  SectionBackgroudVC.h
 //  CollectionTips
 //
-//  Created by YangDan on 16/8/13.
+//  Created by YangDan on 16/8/22.
 //  Copyright © 2016年 YangDan. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface SectionBackgroudVC : UIViewController
 
 @end
-

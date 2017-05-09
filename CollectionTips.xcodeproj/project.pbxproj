@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C05D61E1D62C29D005C046B /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C05D61D1D62C29D005C046B /* MainViewController.m */; };
+		5C05D61F1D62C29D005C046B /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C05D61D1D62C29D005C046B /* MainViewController.m */; };
+		5C05D6201D62C29D005C046B /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C05D61D1D62C29D005C046B /* MainViewController.m */; };
 		5C1E8B3D1D5F5EBA007D2A8B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C1E8B3C1D5F5EBA007D2A8B /* main.m */; };
 		5C1E8B401D5F5EBA007D2A8B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C1E8B3F1D5F5EBA007D2A8B /* AppDelegate.m */; };
-		5C1E8B431D5F5EBA007D2A8B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C1E8B421D5F5EBA007D2A8B /* ViewController.m */; };
+		5C1E8B431D5F5EBA007D2A8B /* MoveCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C1E8B421D5F5EBA007D2A8B /* MoveCollectionView.m */; };
 		5C1E8B461D5F5EBA007D2A8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C1E8B441D5F5EBA007D2A8B /* Main.storyboard */; };
 		5C1E8B481D5F5EBA007D2A8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C1E8B471D5F5EBA007D2A8B /* Assets.xcassets */; };
 		5C1E8B4B1D5F5EBA007D2A8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C1E8B491D5F5EBA007D2A8B /* LaunchScreen.storyboard */; };
 		5C1E8B561D5F5EBB007D2A8B /* CollectionTipsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C1E8B551D5F5EBB007D2A8B /* CollectionTipsTests.m */; };
 		5C1E8B611D5F5EBB007D2A8B /* CollectionTipsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C1E8B601D5F5EBB007D2A8B /* CollectionTipsUITests.m */; };
+		5C4E763F1D6AAA7D003D6E77 /* SectionBackgroudVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C4E763E1D6AAA7D003D6E77 /* SectionBackgroudVC.m */; };
+		5C4E76481D6AB3E1003D6E77 /* SectionBackGroundReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C4E76471D6AB3E1003D6E77 /* SectionBackGroundReusableView.m */; };
+		5C4E764E1D6ADCCC003D6E77 /* SectionBackgroundFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C4E764D1D6ADCCC003D6E77 /* SectionBackgroundFlowLayout.m */; };
+		5CCE18A41D6BF4D5003CD42B /* SecondCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCE18A31D6BF4D5003CD42B /* SecondCollectionReusableView.m */; };
+		5CDB16FE1D5F66EC0096977A /* MoveCollectionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CDB16FD1D5F66EC0096977A /* MoveCollectionVC.m */; };
+		5CF36A131D5F7C1300870054 /* MoveCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF36A121D5F7C1300870054 /* MoveCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +44,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5C05D61C1D62C29D005C046B /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		5C05D61D1D62C29D005C046B /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		5C1E8B381D5F5EBA007D2A8B /* CollectionTips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionTips.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C1E8B3C1D5F5EBA007D2A8B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5C1E8B3E1D5F5EBA007D2A8B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5C1E8B3F1D5F5EBA007D2A8B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5C1E8B411D5F5EBA007D2A8B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5C1E8B421D5F5EBA007D2A8B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5C1E8B411D5F5EBA007D2A8B /* MoveCollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoveCollectionView.h; sourceTree = "<group>"; };
+		5C1E8B421D5F5EBA007D2A8B /* MoveCollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoveCollectionView.m; sourceTree = "<group>"; };
 		5C1E8B451D5F5EBA007D2A8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5C1E8B471D5F5EBA007D2A8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C1E8B4A1D5F5EBA007D2A8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +62,20 @@
 		5C1E8B5C1D5F5EBB007D2A8B /* CollectionTipsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollectionTipsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C1E8B601D5F5EBB007D2A8B /* CollectionTipsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionTipsUITests.m; sourceTree = "<group>"; };
 		5C1E8B621D5F5EBB007D2A8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C4E763D1D6AAA7D003D6E77 /* SectionBackgroudVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionBackgroudVC.h; sourceTree = "<group>"; };
+		5C4E763E1D6AAA7D003D6E77 /* SectionBackgroudVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionBackgroudVC.m; sourceTree = "<group>"; };
+		5C4E76461D6AB3E1003D6E77 /* SectionBackGroundReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionBackGroundReusableView.h; sourceTree = "<group>"; };
+		5C4E76471D6AB3E1003D6E77 /* SectionBackGroundReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionBackGroundReusableView.m; sourceTree = "<group>"; };
+		5C4E764C1D6ADCCC003D6E77 /* SectionBackgroundFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionBackgroundFlowLayout.h; sourceTree = "<group>"; };
+		5C4E764D1D6ADCCC003D6E77 /* SectionBackgroundFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionBackgroundFlowLayout.m; sourceTree = "<group>"; };
+		5CCE18A21D6BF4D5003CD42B /* SecondCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondCollectionReusableView.h; sourceTree = "<group>"; };
+		5CCE18A31D6BF4D5003CD42B /* SecondCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondCollectionReusableView.m; sourceTree = "<group>"; };
+		5CDB16FC1D5F66EC0096977A /* MoveCollectionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoveCollectionVC.h; sourceTree = "<group>"; };
+		5CDB16FD1D5F66EC0096977A /* MoveCollectionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoveCollectionVC.m; sourceTree = "<group>"; };
+		5CF36A0F1D5F6E8600870054 /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		5CF36A101D5F6EF000870054 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		5CF36A111D5F7C1300870054 /* MoveCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoveCollectionViewCell.h; sourceTree = "<group>"; };
+		5CF36A121D5F7C1300870054 /* MoveCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoveCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +128,14 @@
 			children = (
 				5C1E8B3E1D5F5EBA007D2A8B /* AppDelegate.h */,
 				5C1E8B3F1D5F5EBA007D2A8B /* AppDelegate.m */,
-				5C1E8B411D5F5EBA007D2A8B /* ViewController.h */,
-				5C1E8B421D5F5EBA007D2A8B /* ViewController.m */,
+				5C05D61C1D62C29D005C046B /* MainViewController.h */,
+				5C05D61D1D62C29D005C046B /* MainViewController.m */,
+				5CCE18A11D6BF486003CD42B /* DragCollectionView */,
+				5C4E76421D6AB349003D6E77 /* sectionBackgroud */,
+				5CF36A111D5F7C1300870054 /* MoveCollectionViewCell.h */,
+				5CF36A121D5F7C1300870054 /* MoveCollectionViewCell.m */,
+				5CF36A0F1D5F6E8600870054 /* Header.h */,
+				5CF36A101D5F6EF000870054 /* PrefixHeader.pch */,
 				5C1E8B441D5F5EBA007D2A8B /* Main.storyboard */,
 				5C1E8B471D5F5EBA007D2A8B /* Assets.xcassets */,
 				5C1E8B491D5F5EBA007D2A8B /* LaunchScreen.storyboard */,
@@ -138,6 +169,32 @@
 				5C1E8B621D5F5EBB007D2A8B /* Info.plist */,
 			);
 			path = CollectionTipsUITests;
+			sourceTree = "<group>";
+		};
+		5C4E76421D6AB349003D6E77 /* sectionBackgroud */ = {
+			isa = PBXGroup;
+			children = (
+				5C4E763D1D6AAA7D003D6E77 /* SectionBackgroudVC.h */,
+				5C4E763E1D6AAA7D003D6E77 /* SectionBackgroudVC.m */,
+				5C4E764C1D6ADCCC003D6E77 /* SectionBackgroundFlowLayout.h */,
+				5C4E764D1D6ADCCC003D6E77 /* SectionBackgroundFlowLayout.m */,
+				5C4E76461D6AB3E1003D6E77 /* SectionBackGroundReusableView.h */,
+				5C4E76471D6AB3E1003D6E77 /* SectionBackGroundReusableView.m */,
+				5CCE18A21D6BF4D5003CD42B /* SecondCollectionReusableView.h */,
+				5CCE18A31D6BF4D5003CD42B /* SecondCollectionReusableView.m */,
+			);
+			name = sectionBackgroud;
+			sourceTree = "<group>";
+		};
+		5CCE18A11D6BF486003CD42B /* DragCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				5C1E8B411D5F5EBA007D2A8B /* MoveCollectionView.h */,
+				5C1E8B421D5F5EBA007D2A8B /* MoveCollectionView.m */,
+				5CDB16FC1D5F66EC0096977A /* MoveCollectionVC.h */,
+				5CDB16FD1D5F66EC0096977A /* MoveCollectionVC.m */,
+			);
+			name = DragCollectionView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,9 +327,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C1E8B431D5F5EBA007D2A8B /* ViewController.m in Sources */,
+				5C1E8B431D5F5EBA007D2A8B /* MoveCollectionView.m in Sources */,
+				5C4E76481D6AB3E1003D6E77 /* SectionBackGroundReusableView.m in Sources */,
+				5C05D61E1D62C29D005C046B /* MainViewController.m in Sources */,
+				5CF36A131D5F7C1300870054 /* MoveCollectionViewCell.m in Sources */,
+				5CDB16FE1D5F66EC0096977A /* MoveCollectionVC.m in Sources */,
+				5CCE18A41D6BF4D5003CD42B /* SecondCollectionReusableView.m in Sources */,
 				5C1E8B401D5F5EBA007D2A8B /* AppDelegate.m in Sources */,
 				5C1E8B3D1D5F5EBA007D2A8B /* main.m in Sources */,
+				5C4E763F1D6AAA7D003D6E77 /* SectionBackgroudVC.m in Sources */,
+				5C4E764E1D6ADCCC003D6E77 /* SectionBackgroundFlowLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +345,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C1E8B561D5F5EBB007D2A8B /* CollectionTipsTests.m in Sources */,
+				5C05D61F1D62C29D005C046B /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +354,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C1E8B611D5F5EBB007D2A8B /* CollectionTipsUITests.m in Sources */,
+				5C05D6201D62C29D005C046B /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +481,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = CollectionTips/PrefixHeader.pch;
 				INFOPLIST_FILE = CollectionTips/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dan.CollectionTips;
@@ -426,6 +493,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = CollectionTips/PrefixHeader.pch;
 				INFOPLIST_FILE = CollectionTips/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dan.CollectionTips;
@@ -498,6 +566,7 @@
 				5C1E8B671D5F5EBB007D2A8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5C1E8B681D5F5EBB007D2A8B /* Build configuration list for PBXNativeTarget "CollectionTipsTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +575,7 @@
 				5C1E8B6A1D5F5EBB007D2A8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5C1E8B6B1D5F5EBB007D2A8B /* Build configuration list for PBXNativeTarget "CollectionTipsUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +584,7 @@
 				5C1E8B6D1D5F5EBB007D2A8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
